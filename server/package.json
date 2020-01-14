@@ -1,0 +1,29 @@
+{
+  "name": "preternatural-election",
+  "version": "1.0.0",
+  "description": "This site is all about *PRETER*natural ~s~election.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philipwofford/preternatural-election.git"
+  },
+  "author": "Philip Wofford",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philipwofford/preternatural-election/issues"
+  },
+  "homepage": "https://github.com/philipwofford/preternatural-election#readme",
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
